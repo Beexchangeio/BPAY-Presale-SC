@@ -26,7 +26,7 @@ contract BPAYPresale is Ownable, Pausable, ReentrancyGuard {
     uint256 public startTime;
     uint256 public endTime;
     uint256 public claimStart;
-    uint256 public const baseDecimals = (10 ** 18);
+    uint256 public constant baseDecimals = (10 ** 18);
     uint256 public maxTokensToBuy = 50_000_000;
     uint256 public minUsdAmountToBuy = 24900000000000000000;
     uint256 public currentStage = 0;
